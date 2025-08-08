@@ -55,8 +55,20 @@ text-align: center;
 		width: 100%;
 		height: 100vh;	
 	}
+
+#home-main{
+		width: 100%;
+		height: 100vh;
+	background-image: url("/images/index.png");
+	}
 	
 	#main img{
+		width: 100%;
+		vertical-align: top;
+		background-color: #fde06a;
+	}
+
+	#home-main img{
 		width: 100%;
 		vertical-align: top;
 		background-color: #fde06a;
