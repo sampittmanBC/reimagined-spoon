@@ -3,17 +3,10 @@
 
 
 	
-h1{
-font-family: "ivyepic", sans-serif;
-font-weight: 700;
-font-style: italic;
-color: #fde06a;
-size: 1.5em;
-text-align: center;
-	    margin-block-start: 0.25em;
-    margin-block-end: 0.25em;
-}
-	
+h1{font-family: "ivyepic", sans-serif;font-weight: 700;font-style: italic;color: #a2023a;font-size: 1.3em;text-align: center;margin-block-start: 0em;margin-block-end: 0em;}
+
+h2{font-family: "ivyepic", sans-serif;font-weight: 700;font-style: italic;color: #fde06a;font-size: 1.1em;text-align: left; line-height:1.2em;margin-block-start: 0em;margin-block-end: 0em;}
+
 	body{
 		margin: 0 0 0 0;
 		background-color: #fde06a;
@@ -24,19 +17,32 @@ text-align: center;
 		a:link, a:visited, a:hover, a:active 
 			{
   text-decoration: none;
-				color: #fde06a;
+  color: #a2023a;
 }
 
+#home-text{
+	position:absolute;
+	z-index:100;
+	width: 55%;
+	padding-left: 38%;
+	bottom: 12vh;
+	text-wrap: balance;
+}
 
 	
 	#buttons{
 		position: fixed;
 		bottom: 0;
 		left: 0;
-		background-color: #a2023a;
+		background-color: #fde06a;
 		width: 100%;
+		float: left;
 	}
 	
+#buttons img{
+	position: relative;
+	width: 100%;
+}
 	.nav{
 		position: relative;
 		float: left;
@@ -48,7 +54,7 @@ text-align: center;
 	}
 	
 	.nav:last-child{
-		border-left: 1px solid #fde06a;
+		border-left: 1px solid #a2023a;
 	}
 	
 	#main{
